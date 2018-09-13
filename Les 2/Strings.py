@@ -19,4 +19,4 @@ print "Eerst: " + sorted(x)[0] + " Laatst: " + sorted(x)[-1]
 # 1. 34
 # 2. True
 # 3. False
-# 4. Eerst: Bartok Laatst: Buxtehude
+# 4. Eerst: Bartok Laatst: Buxtehude .
