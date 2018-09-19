@@ -8,16 +8,16 @@ mijnnaam = voornaam + " " + achternaam
 
 
 #1
-print 75 > a and 75 < b
+print (75 > a and 75 < b)
 
 #2
-print len(mijnnaam) == len(voornaam) + len(tussenvoegsel) + len(achternaam)
+print (len(mijnnaam) == len(voornaam) + len(tussenvoegsel) + len(achternaam))
 
 #3
-print mijnnaam == tussenvoegsel * 5
+print (mijnnaam == tussenvoegsel * 5)
 
 #4
-print tussenvoegsel in achternaam
+print (tussenvoegsel in achternaam)
 
 #Uitkomst
 #1. False

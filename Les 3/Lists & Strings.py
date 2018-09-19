@@ -1,11 +1,11 @@
 favorieten = ['Lynyrd Skynyrd']
-print favorieten
+print (favorieten)
 
 favorieten.append('BlackBerry Smoke')
-print favorieten
+print (favorieten)
 
 favorieten[1] = 'Beatles'
-print favorieten
+print (favorieten)
 
 #Uitkomst
 #1. ['Lynyrd Skynyrd']
