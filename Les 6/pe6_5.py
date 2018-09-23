@@ -5,4 +5,4 @@ def kwadraten_som(grondgetallen):
             somkwadraat += (i ** 2)
     return somkwadraat
 
-print (kwadraten_som([4, 5, 3, -81, 0]))
+print (kwadraten_som([4, 5, 3, -81]))
