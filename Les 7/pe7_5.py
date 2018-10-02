@@ -4,4 +4,4 @@ def gemiddelde(zin):
         som += len(i)
     return som / len(zin.split(" "))
 
-print ("Gemiddelde lengte van de woorden in de zin: {:.0f}".format(gemiddelde(input("Typ een willekeurige zin:\n"))))
+print ("Gemiddelde lengte van de woorden in de zin: {:.0f}".format(gemiddelde(input("Typ een willekeurige zin: \n"))))
