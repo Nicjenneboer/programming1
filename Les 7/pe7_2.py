@@ -1,5 +1,5 @@
 infile = open("Kaartnummers.txt", "r")
-kaartnummers = infile.read().strip().split("\n")
+kaartnummers = infile.readlines()
 for i in kaartnummers:
-    print("{} {} {}".format(i.split(",")[1], "heeft kaartnummer: ", i.split(",")[0]))
+    print("{} {} {}".format(str(i.split(",")[1])[:-1], "heeft kaartnummer: ", i.split(",")[0]))
 infile.close()
