@@ -71,7 +71,6 @@ def kluis_openen():
         else:
             print("Kies een kluis van 1 t/m 12")
             kluis_openen()
-
     except ValueError:
         print ("Verkeerde invoer!")
         kluis_openen()
@@ -80,7 +79,6 @@ def kluis_openen():
 def kluis_teruggeven():
     try:
         file = open("kluizen.txt", "r+")
-
         kluisnummer = int(input("Wat is uw kluisnummer?: "))
         if kluisnummer >= 1 and kluisnummer <= 12:
             kluiscn = {}
@@ -107,7 +105,6 @@ def kluis_teruggeven():
         else:
             print("Kies een kluis van 1 t/m 12")
             kluis_teruggeven()
-
     except ValueError:
         print("Verkeerde invoer!")
         kluis_teruggeven()
