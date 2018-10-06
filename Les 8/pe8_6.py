@@ -78,8 +78,8 @@ def kluis_openen():
 
 def kluis_teruggeven():
     try:
-        file = open("kluizen.txt", "r+")
         kluisnummer = int(input("Wat is uw kluisnummer?: "))
+        file = open("kluizen.txt", "r+")
         if kluisnummer >= 1 and kluisnummer <= 12:
             kluiscn = {}
             for i in file.readlines():
